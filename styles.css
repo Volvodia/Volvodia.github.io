@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header & Flag */
+header {
+    background-color: #e65c00;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.flag {
+    max-width: 180px;
+    height: auto;
+    border: 2px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 12px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
+/* Headings */
+h2 {
+    color: #d35400;
+    border-bottom: 2px solid #e65c00;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+/* Content Sections */
+.section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Buttons */
+.constitution-btn {
+    display: inline-block;
+    background-color: #e65c00;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.constitution-btn:hover {
+    background-color: #cf5200;
+}
+
+/* Vacancy Notice Callout */
+.notice {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffeba2;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 2px;
+    color: #856404;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #777;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
